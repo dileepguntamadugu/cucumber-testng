@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Surefire suite" verbose="0" parallel="methods" thread-count="2">
+  <test thread-count="1" name="Surefire test" verbose="0">
+    <classes>
+      <class name="hellocucumber.RunCucumberTest"/>
+    </classes>
+  </test> <!-- Surefire test -->
+</suite> <!-- Surefire suite -->
